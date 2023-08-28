@@ -24,7 +24,7 @@
       const characters = '0123456789';
       let password = '';
 
-      while (password.length < 9) {
+      while (password.length < 10) {
         const randomIndex = Math.floor(Math.random() * characters.length);
         const digit = characters[randomIndex];
         if (!password.includes(digit)) {
